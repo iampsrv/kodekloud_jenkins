@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website</title>
+    <style>
+        .responsive-iframe {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            margin-bottom: 20px; /* Spacing between iframes */
+        }
+
+        .responsive-iframe iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="responsive-iframe">
+    <iframe src="https://www.youtube.com/embed/mRlBtYc-HSk?si=BWBx9EGEwcproch_" allowfullscreen></iframe>
+</div>
+<div class="responsive-iframe">
+    <iframe src="https://www.youtube.com/embed/CukYk43agA4?si=1uA9YeJQteBjqEJP" allowfullscreen></iframe>
+</div>
+<div class="responsive-iframe">
+    <iframe src="https://www.youtube.com/embed/RzzqT7KUtiM?si=w-Y7cESjVP9TcVe6" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
