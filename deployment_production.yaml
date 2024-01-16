@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: psrv3/kodekloud_jenkins:latest  # Replace with your image
+        image: psrv3/kodekloud_jenkins:1  # Replace with your image
         ports:
         - containerPort: 5000  # Port your app runs on
         resources:
